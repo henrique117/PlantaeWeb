@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,14 +18,47 @@
     background-color: #BAF6D6;
 }
 
+.logosHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home img {
+    margin-left: 2rem;
+    margin-right: 7px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logos img {
+    padding: 0.3rem;
+}
+
 h2 {
+    font-family: 'Kulim Park', sans-serif;
     font-size: 24;
     color: #00533C;
-    padding: 3rem;
+}
+
+.loginTitle {
+    margin-right: 2rem;
 }
 
 .downHead {
-    background-color: #40D987;
+    display: flex;
+    margin: auto;
+    background-color: #52dd93;
 }
 
 .downHead ul {
@@ -31,18 +66,24 @@ h2 {
     justify-content: space-between;
     margin: auto;
     list-style-type: none;
-    padding: 1rem 2rem;
+    padding: 1rem;
 }
 
 .downHead ul li {
     display: flex;
     justify-content: center;
     margin: auto;
+    padding: 0 10px;
 }
 
 a {
+    display: flex;
+    font-family: 'Kulim Park', sans-serif;
     color: black;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
 }
 
 /* Main */
