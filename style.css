@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 * {
     margin: 0;
@@ -103,4 +104,78 @@ a {
 .dicas picture img {
     margin: 1rem 0;
     width: 90%;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAF6D6;
+}
+
+.middle {
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.middleCafe {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleSoja {
+    background-image: url("./images/backSoja.png");
+}
+
+.middleMilho {
+    background-image: url("./images/backMilho.png");
+}
+
+.middleFeijao {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleCapim {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleSorgo {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleLar {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleAlho {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleCana {
+    background-image: url("./images/backCafe.png");
+}
+
+.middleTom {
+    background-image: url("./images/backCafe.png");
+}
+
+.title {
+    width: 55%;
+}
+
+.title h1 {
+    color: white;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 96px;
+}
+
+.caxa {
+    background-color: rgba(194, 206, 204, 0.85);
+    width: 45%;
+    margin: 1.5rem;
+    border-radius: 30px;
 }
