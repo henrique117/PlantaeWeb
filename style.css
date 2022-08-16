@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -111,7 +112,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #BAF6D6;
+    background: linear-gradient(#BAF6D6, #509BB0);
 }
 
 .middle {
@@ -136,31 +137,31 @@ a {
 }
 
 .middleFeijao {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backFeijao.png");
 }
 
 .middleCapim {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backCapim.png");
 }
 
 .middleSorgo {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backSorgo.png");
 }
 
 .middleLar {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backLaranja.png");
 }
 
 .middleAlho {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backAlho.png");
 }
 
 .middleCana {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backCana.png");
 }
 
 .middleTom {
-    background-image: url("./images/backCafe.png");
+    background-image: url("./images/backTomate.png");
 }
 
 .title {
@@ -174,8 +175,66 @@ a {
 }
 
 .caxa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(194, 206, 204, 0.85);
     width: 45%;
     margin: 1.5rem;
     border-radius: 30px;
+}
+
+.textoCaxa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 77%;
+}
+
+.tituloP {
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textoP {
+    margin: 0 20px;
+}
+
+.botao {
+    color: white;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 24px;
+    border-radius: 40px;
+    background-color: #0456F6;
+    padding: 1rem 4rem;
+}
+
+/* Footer */
+
+.downFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1880d3;
+    height: 130px;
+}
+
+.finalFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.finalFooterText {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: white;
+    font-family: 'Kulim Park', sans-serif;
 }
