@@ -66,6 +66,7 @@ h2 {
     display: flex;
     margin: auto;
     background-color: #52dd93;
+    height: 100px;
 }
 
 .downHead .list {
@@ -76,6 +77,7 @@ h2 {
     margin: auto;
     list-style-type: none;
     padding: 1rem;
+    width: 100%;
 }
 
 .downHead .list div {
@@ -250,4 +252,11 @@ h2 {
     color: white;
     font-family: 'Kulim Park', sans-serif;
     font-size: auto;
+}
+
+@media (max-width: 1280px){
+    .downHead .list div a.menuText  {
+            display: none;
+    }
+
 }
